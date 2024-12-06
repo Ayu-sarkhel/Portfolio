@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Adding FontAwesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Hi, I'm <span class="highlight">Ayushi Sarkhel</span></h1>
+            <p>I'm a passionate <span id="dynamic-text"></span> and a Computer Science Engineering Student.</p>
+            <button class="scroll-btn" onclick="scrollToSection('skills')">Explore My Skills</button>
+            <button class="scroll-btn" onclick="scrollToSection('hobbies')">Explore My Hobbies</button>
+            <button class="scroll-btn" onclick="scrollToSection('strengths')">Explore My Strengths</button>
+        </header>
+
+        <section id="about">
+            <img src="image.jpg" alt="Ayushi Sarkhel" class="profile-pic">
+            <h2>About Me</h2>
+            <p>Hi, I’m Ayushi Sarkhel. I’m currently pursuing Computer Science Engineering at Jyothy Institute of Technology, Bengaluru, Karnatka, India. I am passionate about technology and programming. I am proficient in HTML, CSS, basic JavaScript for front-end development, and Python and C for back-end development. I am always eager to learn and grow, both individually and in collaborative environments.</p>
+        </section>
+
+        <section id="strengths" class="flip-section">
+            <h2>My Strengths</h2>
+            <div class="flip-card-container">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Problem Solving</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Approaching challenges with creativity and logic to find solutions efficiently.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Attention to Detail</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Ensuring that every aspect of my work is polished and accurate.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Collaboration</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Working effectively in teams and learning from others in collaborative environments.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbies" class="flip-section">
+            <h2>My Hobbies</h2>
+            <div class="flip-card-container">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Reading</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Exploring thought-provoking books that broaden my perspective.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Writing</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Crafting poems and stories that allow me to express my creativity.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="goals" class="flip-section">
+            <h2>My Goals as a Software Engineer</h2>
+            <div class="flip-card-container">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Impactful Solutions</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Developing software solutions that create real-world impact.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Collaborative Growth</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Learning from industry experts in a collaborative environment.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <h3>Technological Mastery</h3>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Mastering modern technologies to develop user-centric applications.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Front-End</h3>
+                    <div class="skills-icons">
+                        <i class="fab fa-html5 fa-3x"></i>
+                        <i class="fab fa-css3-alt fa-3x"></i>
+                        <i class="fab fa-js fa-3x"></i>
+                        <p>I am proficient in HTML for structuring websites, CSS for styling, and JavaScript for adding interactivity to web pages.</p>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Back-End</h3>
+                    <div class="skills-icons">
+                        <i class="fas fa-cogs fa-3x"></i>
+                        <i class="fab fa-python fa-3x"></i>
+                        <i class="fas fa-laptop-code fa-3x"></i>
+                        <p>I have experience in Python for building back-end applications and am familiar with C for system-level programming.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out!</p>
+            <div class="contact-details">
+                <p><strong>Email:</strong> <a href="mailto:your-email@gmail.com">ayushisarkhel@gmail.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+1234567890">+91 91086 27626</a></p>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2024 Ayushi Sarkhel. All rights reserved. Currently pursuing Computer Science Engineering at Jyothy Institute of Technology</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
